@@ -1,6 +1,11 @@
 import UserCard from '@/components/UserCard';
-import Image from 'next/image';
+import { Metadata } from 'next';
 import React, { HTMLAttributes } from 'react'
+
+export const metadata:Metadata = {
+  title: 'Ejemplo 1'
+}
+
 
 interface IUsuario {
   id: number;
